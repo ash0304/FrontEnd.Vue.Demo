@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141.333" height="141.333" viewBox="0 0 141.333 141.333">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.022" x2="0.5" y2="0.991" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e25223"/>
+      <stop offset="1" stop-color="#c52d27"/>
+    </linearGradient>
+  </defs>
+  <g id="im_logo" transform="translate(-359.743 -306.098)">
+    <rect id="矩形_2" data-name="矩形 2" width="141.333" height="141.333" rx="40.319" transform="translate(359.743 306.098)" fill="url(#linear-gradient)"/>
+    <rect id="矩形_3" data-name="矩形 3" width="11.127" height="48.585" rx="5.564" transform="translate(379.97 349.377)" fill="#fff"/>
+    <path id="路径_286" data-name="路径 286" d="M461.855,398.056l-37.628-37.628a5.542,5.542,0,0,0-4.11-1.621c-.056,0-.11-.009-.167-.009h0a5.563,5.563,0,0,0-5.563,5.564v37.457a5.564,5.564,0,0,0,5.563,5.564h0a5.564,5.564,0,0,0,5.564-5.564V377.452l28.473,28.473a5.565,5.565,0,0,0,7.868,0h0A5.563,5.563,0,0,0,461.855,398.056Z" transform="translate(-9.768 -9.421)" fill="#fff"/>
+    <rect id="矩形_4" data-name="矩形 4" width="11.127" height="64.342" rx="5.564" transform="translate(489.985 392.57) rotate(135)" fill="#fff"/>
+  </g>
+</svg>

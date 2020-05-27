@@ -9,7 +9,7 @@ const name = 'FastPack.Web.FrontEnd.v4'
 const port = 8080
 
 module.exports = {
-  publicPath: '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/FrontEnd.Vue.Demo': '/',
   outputDir: 'dist',
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV === 'development',

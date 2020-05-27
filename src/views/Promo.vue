@@ -134,9 +134,6 @@ export default {
       ]
     }
   },
-  created() {
-    this.getActivityList()
-  },
   methods: {
     modalOpen(item) {
       this.temp.ID = item.ID

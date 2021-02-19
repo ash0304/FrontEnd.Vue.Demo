@@ -211,7 +211,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'hash',
-  base: '/Home',
+  base: process.env.BASE_URL,
   // process.env.BASE_URL
   routes,
   scrollBehavior(to) {

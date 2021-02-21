@@ -49,8 +49,8 @@ export default {
   name: 'Login',
   data() {
     return {
-      Account: '',
-      Password: '',
+      Account: 'ash123',
+      Password: '123456',
       logoUrl: require('../assets/images/home/logo.png')
     }
   },
@@ -73,7 +73,7 @@ export default {
   methods: {
     login() {
       const form = {
-        Account: this.Account,
+        LoginAccount: this.Account,
         Password: this.Password
       }
       this.$store.dispatch('user/login', form).then(response => {
@@ -81,7 +81,7 @@ export default {
           this.$store.dispatch('user/getInfo')
           this.$router
             .push({
-              name: 'Home'
+              name: 'Profile'
             })
             .catch(() => {})
         } else {

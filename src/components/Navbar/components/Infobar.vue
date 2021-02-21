@@ -103,8 +103,8 @@ export default {
   data() {
     return {
       loginForm: {
-        LoginAccount: '',
-        Password: ''
+        LoginAccount: 'ash123',
+        Password: '123456'
       }
     }
   },
@@ -131,7 +131,7 @@ export default {
           this.$store.dispatch('user/getInfo')
           this.$router
             .push({
-              name: 'Home'
+              name: 'Profile'
             })
             .catch(() => {})
         } else {
@@ -143,8 +143,13 @@ export default {
     },
     logout() {
       this.$store.dispatch('user/logout')
-      this.loginForm.LoginAccount = ''
-      this.loginForm.Password = ''
+      // this.loginForm.LoginAccount = ''
+      // this.loginForm.Password = ''
+      this.$router
+        .push({
+          name: 'Home'
+        })
+        .catch(() => {})
     },
     toSiteNote() {
       this.$router
